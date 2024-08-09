@@ -1,0 +1,6 @@
+sudo pacman -Sy lib32-expat expat
+mkdir venv
+python3 -m venv venv
+cd venv
+source bin/activate
+pip install numpy scipy matplotlib pandas linalg scipy
