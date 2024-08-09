@@ -1,4 +1,4 @@
-sudo pacman -Sy lib32-expat expat openssl
+sudo pacman -Sy lib32-expat expat openssl python-pip
 mkdir venv
 python3 -m venv venv
 cd venv
