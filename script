@@ -4,5 +4,5 @@ python3 -m venv venv
 cd venv
 source bin/activate
 pip install numpy scipy matplotlib pandas linalg scipy
-echo "source venv/bin/activate" >> ~/.bashrc
+echo "source ~/solutions/venv/bin/activate" >> ~/.bashrc
 sudo systemctl enable sshd
